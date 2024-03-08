@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    /* @apply bg-black; */
+}
+
 .logo-green{
-    @apply text-green-600 border-green-600 bg-white 
+    @apply text-emerald-600 border-emerald-600 bg-white 
 }
 
 .logo-white{
-    @apply bg-green-600 border-white text-white  
+    @apply bg-emerald-600 border-white text-white  
 }
