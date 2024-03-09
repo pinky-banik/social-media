@@ -9,13 +9,13 @@ import SideIcons from "./SideIcons";
 const NavbarWeb = () => {
   return (
     <nav className="h-16 
-      bg-green-200 justify-between bg-opacity-95  flex w-full fixed ">
+      bg-green-200 justify-between bg-opacity-95  flex w-full ">
           <div className="flex">
-          <Logo color={"logo-white"} />
+        <Logo color={"logo-white"} />
       <SearchBar />
       </div>
       {/* middle icons */}
-      <div className="flex justify-center items-center">
+      <div className="flex  justify-center items-center">
         <MiddleIcons />
         
       </div>

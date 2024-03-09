@@ -5,7 +5,7 @@ import NavbarMobile from './NavbarMobile';
 const Navbar = () => {
     return (
         <>
-            <div className='md:block hidden'>
+            <div className='md:block hidden '>
             <NavbarWeb/>
             </div>
             <div className='md:hidden block'>
